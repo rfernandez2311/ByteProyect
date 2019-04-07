@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Login </title>
+    <link rel="stylesheet" type= "text/css" href="Login.css">
+    <body>
+        <header>
+            <div class="container">
+                <a href="byteproyect.html"><img src="logo.png" alt="logo" class="logo"></a>
+                <nav>
+                <ul>
+                  <li><a href="byteproyect.html">Home</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="Build.html">Build</a></li>
+                  <li><a href="Guides.html">Guides</a></li>
+                  <li><a href="Login.html">login</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+
+
+
+
+      <div class="loginbox">
+          <div class="form">
+        <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+         <form class="login-form">
+            <p>Email</p>
+            <input type="text" name="" placeholder="Enter Email">
+           <p>Password</p>
+           <input type="password" name="" placeholder="Enter Password">
+           <input type="submit" name="" value="Login">
+           <a href="#">Lost Your Password?</a><br>
+           <p class="message"> Don't Have an Account <a href="Register.html">Register</a></p>
+        
+          </form>
+
+          
+         
+       </div>
+      </div>
+      <script scr="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script>
+      $('.message a').click(function(){
+          $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+          });
+      </script>
+     </body>
+    
+  </head>
+
+</html>

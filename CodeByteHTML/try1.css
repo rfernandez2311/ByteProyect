@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+    background-image: url("jjjj.jpg");
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+}
+
+.container {
+    width: 90%;
+	margin: 10 auto;
+}
+
+header {
+  background: #000000;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #FFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #7fff00;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/**************************************************************************/
+.wrap{
+
+    
+    width:300px;
+    margin: left;
+    margin-top: 100px;
+       
+    position:absolute;
+    top: 50px;
+    left: 100px;
+    width: 750px;
+    height: 100px;
+     
+    }
+    
+    .card{
+        box-shadow:0 4px 8px 0 rgb(116, 110, 110);
+        transition: 0.4s;
+        width: 900px;
+        background: rgb(255, 255, 255);
+        text-align: left;
+        font-size: 16px;
+        font-family: sans-serif;
+        float: left;
+        margin: 10px;
+        
+    
+    }
+    .card :hover{
+        box-shadow: #bbb;
+        }
+    .container{
+        padding: 2px 16px;
+    }
+
+/***********************************************************************/
+
+.box{
+    background: url(buildg.png);
+    object-fit: cover;
+    width: 380px;
+    height: 1850px;
+    float: right;
+    padding: 80px 90px;
+    margin: 985px; 
+   
+    margin-top: 10px;
+       
+    position:absolute;
+    border-radius: 10px;
+}
